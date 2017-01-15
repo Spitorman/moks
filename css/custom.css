@@ -5,12 +5,13 @@ html, body {
 
 
 .navbar-default {
-   
-    color: #000;    
+    background-color: #E74C3C;
+    color: #000;  
+    border: none;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: white;
-    background-color: #0B9BE1;
+    background-color: #3498DB;
 }
 .navbar-default .navbar-brand {
     color: #000;
@@ -31,7 +32,7 @@ Podświetlenie navbaru
 */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #000;
+    color: #fff;
     background-color: transparent;
     
 }
@@ -39,7 +40,7 @@ Podświetlenie navbaru
 kolor linków
 */
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+    color: #ECF0F1;
     text-align: center;
     font-size: 18px;
 
@@ -49,7 +50,7 @@ kolor linków
 .navbar-default .navbar-nav > .active > a:focus {
     
     color: #FFF;
-    background-color: #FC6432;
+    background-color: #E74C3C;
     
 }
 
@@ -58,6 +59,32 @@ podświetlenie linków
 */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #FC6432;
+    color: #2980B9;
     background-color: transparent;
 }
+
+.jumbotron {
+    height: auto;
+    margin: 0;
+    text-align: center;
+    background-color: #CFD3D4;
+    padding: 15px;
+    
+}
+.log {
+display: inline-block; 
+vertical-align: 25px;
+    
+}
+.logtext {
+display: inline-block; 
+
+}
+.slider {
+    margin: -20px 0px -30px 0px;
+}
+.slidimg {
+    height: 500px;
+}
+
+
