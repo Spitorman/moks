@@ -123,3 +123,8 @@ display: inline-block;
     position: absolute;
     bottom: 0;
 }
+.carousel-caption {
+    background-image: url(../img/slidbg.png);
+    margin-bottom: -30px;
+    padding-bottom: 30px; 
+}
